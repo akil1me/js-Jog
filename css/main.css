@@ -10,6 +10,7 @@
 }
 
 body {
+  height: 100vh;
   font-family: "Arial", sans-serif;
   font-size: 16px;
   font-weight: normal;
@@ -17,6 +18,7 @@ body {
   background-image: url("../img/bg-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  overflow-y: hidden;
 }
 
 .jog__inner {
