@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Js weather</title>
+</head>
+
+<body>
+  <main>
+    <section class="jog">
+      <h1 class="visually-hidden">Yugurishga chiqing</h1>
+      <div class="jog__container container">
+        <div class="jog__inner">
+          <form class="jog__form mt-4" autocomplete="off">
+            <div class="mb-3">
+              <label class="form-label fs-4" for="rain-input">Yugurish</label>
+              <input class="jog__input form-control" type="text" id="rain-input" aria-describedby="emailHelp"
+                placeholder="Celsius ℃" required>
+              <div class="form-text ps-2" id="rain-input">Iltimos faqat son kiriting</div>
+            </div>
+
+            <div class="mb-1">
+              <input class="jog__input-check-1 form-check-input" type="checkbox" id="rain">
+              <label class="form-label" for="rain">Yomg`ir</label>
+            </div>
+
+            <div class="mb-4 form-check">
+              <input class="jog__input-check-2 form-check-input" type="checkbox" id="Hall">
+              <label class="form-check-label" for="Hall">Zal</label>
+            </div>
+
+            <div class="text-center text-sm-end">
+              <button class="btn btn-primary" type="submit">Submit</button>
+              <button class="btn btn-danger" type="reset">Delete</button>
+            </div>
+          </form>
+
+          <div class="jog__output text-center my-4">
+            <output class="jog__result"></output>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
